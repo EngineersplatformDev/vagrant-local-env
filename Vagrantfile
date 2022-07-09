@@ -1,4 +1,4 @@
-vagrant.configure("2") do |config|
+Vagrant.configure("2") do |config|
 
 #Ubuntu virtual machine. Can be used for installing any web server. 
 	config.vm.define "web" do |web|
