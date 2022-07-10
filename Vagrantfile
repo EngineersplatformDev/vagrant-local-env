@@ -1,9 +1,9 @@
 Vagrant.configure("2") do |config|
-	config.hostmanager.enabled = true
-	config.hostmanager.manage_host = true
+	# config.hostmanager.enabled = true
+	# config.hostmanager.manage_host = true
 
 #Ubuntu virtual machine. Can be used for installing any web server. 
-	config.vm.define "web" do |web01|
+	config.vm.define "web01" do |web01|
 		web01.vm.box = "ubuntu/xenial64"
 		web01.vm.hostname = "web01"
 		web01.vm.network "private_network", ip: "192.168.56.11"
