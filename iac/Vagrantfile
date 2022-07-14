@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
 		terrans.vm.provider "virtualbox" do |add|
 			add.memory = "2064"
 		#storage size specification 
-			add.disksize.size = "50GB"
+			#add.disksize.size = "50GB"
 		end 
 	end
 end
