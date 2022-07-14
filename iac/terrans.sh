@@ -3,7 +3,7 @@ Author: Ferdinand F. Longinu
 
 #ansible installation 
 sudo apt update -y 
-sudo apt install ansible 
+sudo apt install ansible -y
 
 #terraform installation script
 sudo apt-get install -y gnupg software-properties-common curl
