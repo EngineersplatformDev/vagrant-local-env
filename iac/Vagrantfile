@@ -1,6 +1,8 @@
 Vagrant.configure("2") do |config|
 	config.hostmanager.enabled = true
 	config.hostmanager.manage_host = true
+	config.ssh.username = "vagrant"
+	config.ssh.password = "vagrant"
 
 #Vm for ansible configuration management and terraform for provisioning of infrastructure
 	config.vm.define "terrans" do |terrans|
